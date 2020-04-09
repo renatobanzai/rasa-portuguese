@@ -1,3 +1,6 @@
+entities:
+   - PERSON
+
 intents:
   - greet
   - goodbye
