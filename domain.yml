@@ -1,0 +1,69 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - gossip_bait
+  - gossip_story
+  - gossip_commit
+
+responses:
+  utter_greet:
+  - text: "Opa! Como esta?"
+  - text: "Eae mano!"
+  - text: "Fala champs!"
+  - text: "Manda!"
+  - text: "Oi amiguinho"
+  - text: "Oi amiguinho"
+
+  utter_cheer_up:
+  - text: "Ta aki um bagulho pra te animar:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Isso te ajudou?"
+  - text: "Mais animado?"
+  - text: "Mais animadinho?"
+
+  utter_happy:
+  - text: "Boa! Vai la!"
+  - text: "Show!"
+  - text: "Aeeee!"
+  - text: "Isso aew!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "Tchau"
+  - text: "Falou!"
+  - text: "Vamos marcar!"
+  - text: "Inte!"
+
+  utter_iamabot:
+  - text: "Sou um robozim."
+  - text: "Curioso vc hein?"
+  - text: "Sabe o que a curiosidade fez com o gato?"
+  - text: "Nao te interessa"
+
+  utter_interest:
+  - text: "Conta!"
+  - text: "Me Conta!"
+  - text: "Fala vai!"
+  - text: "Di-me!"
+
+  utter_pretend_surprise:
+  - text: "Nao acredito!"
+  - text: "Ta brincando?"
+  - text: "Serio?"
+  - text: "Nao pode ser verdade!"
+
+  utter_commit:
+  - text: "Nao contarei pra ninguem"
+  - text: "Estou em choque"
+  - text: "Elxs que lutem"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
